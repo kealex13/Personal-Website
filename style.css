@@ -1,0 +1,262 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+#navbar{
+background-color:rgba(49, 64, 33, .4);
+color: #0d0d0d;
+
+}
+.navbar-nav{
+  margin-left: auto;
+  font-family: 'Poiret One', sans-serif;
+}
+
+.hoveri .navbar-brand {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hoveri:hover .navbar-brand {
+  transform: scale(1.3);
+}
+.hover01 a {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover01:hover a {
+  transform: scale(1.3);
+}
+.hover02 a {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover02:hover a {
+  transform: scale(1.3);
+}
+.hover03 a {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover03:hover a {
+  transform: scale(1.3);
+}
+.hover04 a {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover04:hover a {
+  transform: scale(1.3);
+}
+
+.parallax {
+  text-align: center;
+  background-image: url("img/AntelopeCanyon2.jpeg");
+  min-height: 50vh; 
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+  background-attachment: fixed;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  overflow: hidden;
+  min-height: 40vh;
+}
+
+.avatar{
+  height: 30%;
+  width: 30%;
+  border-radius: 100%;
+  border: 3px solid #f2efea;
+  z-index: 200; 
+}
+
+.avatarBorder{
+  text-align: center;
+  color: #f2efea;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.tagline h1{
+font-size: 4vh;
+white-space: nowrap;
+font-family: 'Poiret One', sans-serif;
+color: #f2efea;
+}
+
+.tagline h3{
+  font-size: 2vh;
+  font-family: 'Poiret One', sans-serif;
+  color: #f2efea;
+}
+
+.section-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 5vw;
+  font-family: 'Poiret One', sans-serif;
+  color: #0d0d0d;
+  padding: 5%;
+}
+
+.carousel-inner{
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 10%;
+}
+
+.carousel-item img{
+  height: 100vh;
+  overflow: hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item:after{
+  content:"";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .4)
+}
+
+.carousel-caption{
+  z-index: 100;
+}
+
+.carousel-caption h5{
+  font-size: 5vh;
+  font-family: 'Poiret One', sans-serif;
+  color: #f2efea;
+}
+
+.carousel-caption p{
+  font-size: 3vh;
+  font-family: 'Poiret One', sans-serif;
+  color: #f2efea;
+}
+
+.carousel-control-prev{
+  margin-left: 10%;
+}
+
+.carousel-control-next{
+  margin-right: 10%;
+}
+
+.mission-pic{
+background-image: url("img/LogicPicture.jpeg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+margin-bottom: 5%;
+}
+
+.mission-box{
+min-height: 40vh;
+font-size: 1rem;
+display: flex;
+align-items: center;
+}
+
+.mission-box p{
+padding: 10%;
+color: #0d0d0d;
+background-color:rgba(49, 64, 33, .4);
+border-radius: 20px;
+display: flex;
+align-items: center;
+}
+
+#mission-section{
+  font-family: 'Poiret One', sans-serif;
+}
+
+#skills-section{
+  color: #f2efea;
+  background-color: rgba(49, 64, 33, .4);
+  font-family: 'Poiret One', sans-serif;
+  padding-bottom: 5%;
+}
+
+.bi{
+  z-index: 100;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#skills-section img{
+  z-index: 100;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+
+.hover05 i {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover05:hover i {
+  transform: scale(1.3);
+}
+.hover06 i {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover06:hover i {
+  transform: scale(1.3);
+}
+.hover07 i {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover07:hover i {
+  transform: scale(1.3);
+}
+.hover08 img {
+  transform: scale(1);
+  transition: .3s ease-in-out;
+}
+.hover08:hover img {
+  transform: scale(1.3);
+}
+
+
+
+#skills-section p{
+  text-align: center;
+  color: #0d0d0d;
+}
+
+section{
+  display: block;
+}
+
+#contact-section{
+background-color:rgba(49, 64, 33, .4);
+min-height: 40vh;
+padding: 5%;
+}
+
+#footer-section{
+font-family: 'Poiret One', sans-serif;
+text-align: center;
+text-transform: uppercase;
+color: #0d0d0d;
+}
